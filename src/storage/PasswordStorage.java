@@ -1,3 +1,5 @@
+package storage;
+
 import java.io.IOException;
 
 public interface PasswordStorage {

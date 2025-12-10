@@ -1,3 +1,5 @@
+package validators;
+
 import exceptions.ValidateException;
 import exceptions.ValidatePasswordException;
 

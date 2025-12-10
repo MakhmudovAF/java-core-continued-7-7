@@ -1,3 +1,5 @@
+package storage;
+
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
@@ -19,7 +21,7 @@ public class PasswordMemoryStorage implements PasswordStorage {
         }
         wasOpened = true;
     }
-   
+
     @Override
     public void store(final String user, final String password) throws IOException {
         if (!wasOpened) {
